@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="openmrstestproject-api" />
+        <module name="basicexample-omod" />
+        <module name="openmrstestproject-omod" />
+        <module name="basicexample-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basicexample" target="1.5" />
+      <module name="basicexample-api" target="1.6" />
+      <module name="basicexample-omod" target="1.6" />
+      <module name="openmrstestproject" target="1.5" />
+      <module name="openmrstestproject-api" target="1.6" />
+      <module name="openmrstestproject-omod" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
