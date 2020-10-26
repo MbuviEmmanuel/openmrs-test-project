@@ -6,13 +6,13 @@
 	<id>${project.parent.artifactId}</id>
 	<name>${project.parent.name}</name>
 	<version>${project.parent.version}</version>
-	<package>org.openmrs.module.basicexample</package>
+	<package>org.openmrs.module.openmrstestproject</package>
 	<author>emmanuel</author>
 	<description>
 			${project.parent.description}
 	</description>
 
-	<activator>org.openmrs.module.basicexample.BasicexampleActivator</activator>
+	<activator>org.openmrs.module.openmrstestproject.OpenmrstestprojectActivator</activator>
 	
 	<!-- <updateURL>https://modules.openmrs.org/modules/download/@MODULE_ID@/update.rdf</updateURL> -->
 	<!-- /Base Module Properties -->
@@ -22,7 +22,7 @@
 	<!-- Extensions -->
 	<extension>
 		<point>org.openmrs.admin.list</point>
-		<class>org.openmrs.module.basicexample.extension.html.AdminList</class>
+		<class>org.openmrs.module.openmrstestproject.extension.html.AdminList</class>
 	</extension>
 
 	<aware_of_modules>

@@ -23,18 +23,18 @@
   		    http://www.springframework.org/schema/util
   		    http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 
-    <context:component-scan base-package="org.openmrs.module.basicexample" />
+    <context:component-scan base-package="org.openmrs.module.openmrstestproject" />
 
-    <!-- Wraps BasicexampleService methods in DB transactions and OpenMRS interceptors,
+    <!-- Wraps OpenmrstestprojectService methods in DB transactions and OpenMRS interceptors,
     which set audit info like dateCreated, changedBy, etc.-->
-    <bean id="basicexample.BasicexampleService"
+    <bean id="openmrstestproject.OpenmrstestprojectService"
             class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
         <property name="transactionManager">
             <ref bean="transactionManager" />
         </property>
         <property name="target">
-            <bean class="org.openmrs.module.basicexample.api.impl.BasicexampleServiceImpl">
-                <property name="dao" ref="basicexample.BasicexampleDao" />
+            <bean class="org.openmrs.module.openmrstestproject.api.impl.OpenmrstestprojectServiceImpl">
+                <property name="dao" ref="openmrstestproject.OpenmrstestprojectDao" />
             </bean>
         </property>
         <property name="preInterceptors">
@@ -45,13 +45,13 @@
         </property>
     </bean>
 
-    <!-- Adds BasicexampleService to OpenMRS context so it can be accessed
-    calling Context.getService(BasicexampleService.class) -->
+    <!-- Adds OpenmrstestprojectService to OpenMRS context so it can be accessed
+    calling Context.getService(OpenmrstestprojectService.class) -->
     <bean parent="serviceContext">
         <property name="moduleService">
             <list>
-                <value>org.openmrs.module.basicexample.api.BasicexampleService</value>
-                <ref bean="basicexample.BasicexampleService" />
+                <value>org.openmrs.module.openmrstestproject.api.OpenmrstestprojectService</value>
+                <ref bean="openmrstestproject.OpenmrstestprojectService" />
             </list>
         </property>
     </bean>

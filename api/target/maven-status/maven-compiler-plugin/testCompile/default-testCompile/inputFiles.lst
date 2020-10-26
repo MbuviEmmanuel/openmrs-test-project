@@ -1,2 +1,2 @@
-/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/test/java/org/openmrs/module/basicexample/BasicexampleServiceTest.java
-/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/test/java/org/openmrs/module/basicexample/dao/BasicexampleDaoTest.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/test/java/org/openmrs/module/openmrstestproject/OpenmrstestprojectServiceTest.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/test/java/org/openmrs/module/openmrstestproject/dao/OpenmrstestprojectDaoTest.java

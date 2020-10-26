@@ -2,20 +2,20 @@
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.openmrs.module</groupId>
-		<artifactId>basicexample</artifactId>
+		<groupId>openmrstestproject</groupId>
+		<artifactId>openmrstestproject</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>basicexample-omod</artifactId>
+	<artifactId>openmrstestproject-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>Basicexample OMOD</name>
-	<description>Omod submodule for Basicexample</description>
+	<name>Openmrstestproject OMOD</name>
+	<description>Omod submodule for Openmrstestproject</description>
 
 	<dependencies>
         <dependency>
-            <groupId>org.openmrs.module</groupId>
-            <artifactId>basicexample-api</artifactId>
+            <groupId>openmrstestproject</groupId>
+            <artifactId>openmrstestproject-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 		<dependency>
