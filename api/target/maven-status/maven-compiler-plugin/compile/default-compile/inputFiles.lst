@@ -1,0 +1,6 @@
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/BasicexampleConfig.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/api/impl/BasicexampleServiceImpl.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/BasicexampleActivator.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/Item.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/api/dao/BasicexampleDao.java
+/home/emmanuel/IdeaProjects/openmrs-test-project/api/src/main/java/org/openmrs/module/basicexample/api/BasicexampleService.java
