@@ -4,7 +4,9 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="openmrstestproject-omod" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -163,5 +165,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito:1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.5" level="project" />
+    <orderEntry type="library" name="Spring-5.2.3.RELEASE" level="project" />
   </component>
 </module>
